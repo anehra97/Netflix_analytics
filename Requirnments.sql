@@ -107,4 +107,62 @@ Netflix management wants to identify high-engagement countries.
 Write a query to calculate **total watch hours per country**, for content types **Movie and Series**, watched between **January 1 and February 28, 2024**, and user names starting with **‘R’ or ‘N’**.
 Include only countries where total watch hours exceed **12 hours**, ordered by total hours.
 
+### ** Question 16: Premium vs Basic Performance Comparison
+
+Netflix wants to compare Premium and Basic subscriptions.
+
+Write a query to calculate country-wise total watch hours and average rating for subscription types Premium and Basic, for content watched between January 1 and February 28, 2024.
+
+Include only countries where:
+
+Total watch hours exceed 8 hours
+
+Average rating exceeds 8.0
+---
+
+### ** Question 17: Multi-Language Content Popularity
+
+Write a query to calculate total watch hours per language and genre, for content watched in India, USA, and Canada, where:
+
+Content type is Series
+
+Rating is greater than 8.2
+
+Watch date between January 1 and February 28, 2024
+
+Include only combinations where total watch hours exceed 5 hours, ordered by total watch hours.
+
+---
+
+### ** Question 18: High-Rating Weekend Analysis
+
+Netflix wants to analyze high-rated content watched on weekends.
+
+Write a query to calculate total watch hours per country and content type, where:
+
+Rating ≥ 8.5
+
+Watch date falls on Saturday or Sunday
+
+Subscription type is Premium
+
+Include only groups where total watch hours exceed 5 hours, ordered by total hours.
+
+---
+
+### ** Question 19: Low Device Usage Detection
+
+Netflix wants to detect underperforming device usage.
+
+Write a query to calculate average watch hours per device type, where:
+
+Country is UK, USA, or Canada
+
+Subscription type is Basic
+
+Rating between 7.0 and 8.5
+
+---
+
+
 
